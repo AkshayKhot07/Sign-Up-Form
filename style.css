@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script&family=Festive&family=Moo+Lah+Lah&family=PT+Sans+Narrow&family=Poppins:wght@300&family=Roboto:wght@100&family=Rock+Salt&family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.image-container {
+  background-image: url("./cover-image2.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 100vh;
+}
+
+.image-logo {
+  background-color: rgb(255, 255, 255, 0.6);
+  position: relative;
+  top: 30%;
+}
+
+div.logo-text {
+  text-align: center;
+}
+
+div.logo-text span {
+  font-size: 3rem;
+  color: rgb(39, 68, 19);
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+/* Form */
+.form-container {
+  background-color: black;
+}
+
+.form-header {
+  /* background-color: white; */
+  color: gray;
+  padding: 50px 80px 10px 30px;
+  margin-bottom: 20px;
+}
+
+.form-header h2 {
+  margin-bottom: 20px;
+}
+
+.form-header p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Form Main */
+.form-main {
+  padding: 30px 80px 40px 30px;
+  /* background-color: black; */
+  box-shadow: 0 3px 6px -6px white;
+}
+
+.form-main {
+  color: gray;
+}
+
+.form-main h2 {
+  margin-bottom: 20px;
+}
+
+.user-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+}
+
+.user-inputs input,
+label {
+  display: block;
+}
+
+.user-inputs input {
+  width: 400px;
+}
+
+/* Form Footer */
+.form-footer {
+  padding: 30px 80px 40px 30px;
+}
+
+.form-footer button {
+  padding: 10px 20px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.form-footer p {
+  margin-top: 30px;
+  color: gray;
+  font-size: 20px;
+}
+
+.form-footer span {
+  color: pink;
+}
