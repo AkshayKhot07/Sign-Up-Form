@@ -34,13 +34,15 @@ div.logo-text span {
   position: relative;
   bottom: 30px;
 }
+
 /* Form */
+
 .form-container {
   background-color: black;
 }
 
+/* Form Header */
 .form-header {
-  /* background-color: white; */
   color: gray;
   padding: 50px 80px 10px 30px;
   margin-bottom: 20px;
@@ -58,7 +60,6 @@ div.logo-text span {
 /* Form Main */
 .form-main {
   padding: 30px 80px 40px 30px;
-  /* background-color: black; */
   box-shadow: 0 3px 6px -6px white;
 }
 
@@ -83,6 +84,21 @@ label {
 
 .user-inputs input {
   width: 400px;
+  font-family: "Poppins";
+  padding-left: 3px;
+  font-weight: bold;
+}
+
+.user-inputs input::placeholder {
+  width: 400px;
+  font-family: "Poppins";
+  padding-left: 3px;
+  font-weight: 100;
+}
+
+.user-inputs input:focus {
+  outline: none !important;
+  border-color: aqua;
 }
 
 /* Form Footer */
@@ -96,6 +112,17 @@ label {
   border: none;
   border-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.form-footer button:hover {
+  padding: 10px 20px;
+  color: pink;
+  background-color: rgb(68, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .form-footer p {
@@ -106,4 +133,9 @@ label {
 
 .form-footer span {
   color: pink;
+  cursor: pointer;
+}
+
+.form-footer span:hover {
+  color: white;
 }
